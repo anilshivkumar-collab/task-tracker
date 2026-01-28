@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:3000/tasks";
+const API = "https://task-tracker-backend-1zaz.onrender.com/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
